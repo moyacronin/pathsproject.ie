@@ -55,23 +55,15 @@
         </div>
         <p class="hero-funder">Funded by the National Disability Authority. Delivered by [Your Research Centre], Munster Technological University.</p>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <svg viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-          <title>An open doorway with a dotted path leading toward it</title>
-          <line x1="20" y1="380" x2="460" y2="380" stroke="#241B33" stroke-opacity="0.12" stroke-width="1.5"/>
-          <path d="M 40 380 C 120 360, 160 330, 200 300 C 250 265, 260 240, 280 210" stroke="#7244CA" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 16"/>
-          <rect x="270" y="70" width="150" height="240" rx="4" fill="none" stroke="#241B33" stroke-width="4"/>
-          <rect x="284" y="86" width="122" height="208" rx="2" fill="#7244CA"/>
-          <circle cx="380" cy="192" r="5" fill="#F8F6FC"/>
-          <path d="M 284 86 L 200 40 L 200 340 L 284 294 Z" fill="#7244CA" fill-opacity="0.14"/>
-          <path d="M 258 70 L 345 30 L 432 70" stroke="#B8862E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <circle cx="200" cy="300" r="9" fill="#241B33"/>
-          <line x1="200" y1="309" x2="200" y2="336" stroke="#241B33" stroke-width="4" stroke-linecap="round"/>
-          <line x1="200" y1="316" x2="188" y2="330" stroke="#241B33" stroke-width="4" stroke-linecap="round"/>
-          <line x1="200" y1="316" x2="213" y2="326" stroke="#241B33" stroke-width="4" stroke-linecap="round"/>
-          <line x1="200" y1="336" x2="190" y2="360" stroke="#241B33" stroke-width="4" stroke-linecap="round"/>
-          <line x1="200" y1="336" x2="210" y2="362" stroke="#241B33" stroke-width="4" stroke-linecap="round"/>
-        </svg>
+      <div class="hero-art">
+        <!--
+          To add a real photo here, replace this whole block with:
+          <img src="images/hero.jpg" alt="Describe the photo" style="width:100%; height:100%; object-fit:cover; border-radius:var(--radius);">
+        -->
+        <div class="image-placeholder" style="aspect-ratio: 4 / 5;">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg>
+          Add your project image here
+        </div>
       </div>
     </div>
   </section>
@@ -153,7 +145,10 @@
       </div>
     </div>
   </div>
-  <div class="wrap footer-bottom">© <span id="year"></span> PATHS Project. All rights reserved.</div>
+  <div class="wrap footer-bottom">
+    <p style="margin-bottom:6px;">This site aims to be accessible to everyone. If any part of it isn't working for you, please <a href="contact.html" style="color:#C6ADF2;">let us know</a> and we'll do our best to fix it or provide the information another way.</p>
+    <p style="margin:0;">© <span id="year"></span> PATHS Project. All rights reserved.</p>
+  </div>
 </footer>
 
 <script src="script.js"></script>
