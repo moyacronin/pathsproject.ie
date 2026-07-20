@@ -199,6 +199,7 @@ p { margin: 0 0 1em 0; }
 .page-hero { padding: 56px 0 44px; border-bottom: 1px solid var(--line); background: var(--purple-pale); }
 .page-hero .eyebrow { display: block; margin-bottom: 10px; }
 .page-hero p { color: var(--ink-soft); max-width: 60ch; margin-bottom: 0; }
+.brand-logo { height: 38px; }
 
 /* ---- section rhythm ---- */
 section { padding: 68px 0; }
