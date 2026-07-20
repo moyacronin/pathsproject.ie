@@ -1,0 +1,1 @@
+Put workshop / research photos in this folder, then follow the "Adding real photos to the gallery" section in README.md to show them on the site.
