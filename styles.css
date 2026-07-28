@@ -2,6 +2,28 @@
    PATHS — Promoting Access to Traveller-inclusive Housing & Services
    Design tokens — purple brand palette
    ========================================================================== */
+.footer-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+.footer-logo-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  height: 44px;
+}
+.footer-logo-badge img {
+  max-height: 26px;
+  max-width: 130px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
 .archivo-black-regular {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
